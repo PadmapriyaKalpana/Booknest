@@ -38,6 +38,4 @@ Booknest/
 4. Click **Delete** on any book card to remove it.
 
 
-## License
 
-This project is open source and available under the [MIT License](LICENSE).
