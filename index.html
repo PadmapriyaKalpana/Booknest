@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📚Booknest</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+    <div class="root">
+        <nav>
+            <h1>BOOKNEST</h1>
+        </nav>
+        <div class="container">
+            <div class="book">
+                <h2>Rich Dad Poor Dad</h2>
+                <h5>Robert Kiyosaki</h5>
+                <p>The book contrasts two father figures' approaches to money and explains why financial education, not just income, determines wealth. It promotes building assets and financial literacy over relying solely on a salaried job.</p>
+                <button onclick="delbtn(event)" class="deletebtn" >Delete</button>
+            </div>
+            <button id="addpopbtn" type="button">+</button>
+            <div class="overlay"></div>
+            <div class="popup">
+                <h2>Add Book</h2>
+                <form>
+                    <input type="text" placeholder="Book name" id="nameval">
+                    <input type="text" placeholder="Author name" id="author">
+                    <textarea placeholder="Short Description" id="description"></textarea>
+                    <button id="addbook" type="button">ADD</button>
+                    <button id="delbook" type="button">CANCEL</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
